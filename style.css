@@ -1,0 +1,130 @@
+
+body{
+    background-color: rgb(50, 46, 46);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 46, 46);;
+
+}
+.container{
+    margin-top: 18vmin;
+    background-color: #fff;
+    height: 80%;
+    width: 80%;
+    background-size: 100% 100%;
+    background-image: url("bac.jpeg");
+}
+.serchbox{
+    margin-top: 5vmin;
+    margin-left: 2.5vmin;
+    display: flex;
+    
+    height: 20%;
+    width: 40%;
+    border-top-left-radius:.3rem;
+    border-bottom-left-radius:.3rem;
+    border: none;
+}
+.serch-icone{
+    font-size: 100%;
+    background-color: rgb(50, 46, 46);
+    color: #fff;
+    padding: 1vmin 1vmin 1vmin 1vmin ;
+    border-top-left-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: none;
+    outline: none;
+}
+
+.Serch-type{
+    font-size: 80%;
+    color: #fff;
+    background-color: rgb(50, 46, 46);
+    border: none;
+    border-top-right-radius:.3rem;
+    border-bottom-right-radius:.3rem;
+}
+.cityinfo{
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cityinfo p{
+    margin: 0;
+}
+.cityname{
+    font-size: 150%;
+}
+.date{
+    font-size: 75%;
+    margin-top: 0;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.box-info{
+    padding: 1%;
+    text-align: center;
+    color: #fff;
+    margin: 2px 0 3% 0;
+    background-color:rgb(50, 46, 46) ;
+    font-size: 1.5rem ;
+    border-radius: 1rem;
+}
+.box4{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tem{
+    text-align: center;
+    font-weight: 500;
+    font-size: 140%;
+}
+.min-max{
+    display: flex; 
+}
+.min-tem{
+    margin:0 1rem 0 0;
+    text-align: right;
+    font-size: 1rem;
+    width: 50%;
+}
+.max-tem{
+    text-align: left;
+    font-size: 1rem;
+    width: 50%;
+}
+.box6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.box{
+
+    width: 50%;
+    font-size:150%;
+    font-weight: 700;
+    box-shadow: 10px 5px 5px rgb(30, 29, 29);
+    align-items: center;
+    justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+    margin: 0.3rem;
+    background-color: #fff;
+   
+}
+.box-6{
+    margin: 3%;
+}
+#mesurment{
+    margin: 2%;
+    font-size: 100%;
+}
